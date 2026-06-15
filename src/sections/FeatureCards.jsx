@@ -13,7 +13,7 @@ const FeatureCards = () => {
                 </div>
                 
                <h3 className='text-white text-2xl font-semibold mt-2'>{title}</h3>
-               <p className='text-white-50 text-lg'></p>
+               <p className='text-white-50 text-lg'>{desc}</p>
             </div>
         ))}
       </div>
