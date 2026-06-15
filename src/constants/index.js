@@ -141,13 +141,20 @@ const techStackIcons = [
     scale: 56,
     rotation: [0, 0, 0],
   },
+  //  {
+  //   name: "Blender",
+  //   modelPath: "/models/blender_logo.glb",
+  //   scale: 4,
+  //   rotation: [0.6, -Math.PI*0.5 , Math.PI/16],
+  // },
 ];
 const expCards = [
   {
     review:
       "Joshua consistently delivered high-quality web applications with a strong focus on user experience, performance, and scalable architecture. His ability to turn ideas into production-ready products has been impressive.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
+    //imgPath: "/images/exp1.png",
+    logoPath: "https://cdn-icons-png.flaticon.com/512/5072/5072860.png",
+    
     title: "Freelance Full Stack Developer",
     date: "January 2024 - Present",
     responsibilities: [
@@ -160,8 +167,8 @@ const expCards = [
   {
     review:
       "Joshua demonstrated strong technical and communication skills while creating a professional online presence tailored to a healthcare client's needs.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
+    //imgPath: "/images/exp2.png",
+    logoPath: "https://www.red-gate.com/assets/products/test-data-manager/images/article-cloning.svg",
     title: "Web Developer (Healthcare Client Project)",
     date: "2025",
     responsibilities: [
@@ -174,8 +181,8 @@ const expCards = [
   {
     review:
       "Joshua has built multiple production-level SaaS and AI applications that showcase advanced frontend and backend engineering skills.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
+    //imgPath: "/images/exp3.png",
+    logoPath: "https://p7.hiclipart.com/preview/501/438/467/web-development-web-developer-web-design-web-development.jpg",
     title: "Independent Software Developer",
     date: "2023 - Present",
     responsibilities: [
@@ -188,15 +195,15 @@ const expCards = [
 const expLogos = [
   {
     name: "logo1",
-    imgPath: "/images/logo1.png",
+    //imgPath: "/images/logo1.png",
   },
   {
     name: "logo2",
-    imgPath: "/images/logo2.png",
+    //imgPath: "https://p7.hiclipart.com/preview/501/438/467/web-development-web-developer-web-design-web-development.jpg",
   },
   {
     name: "logo3",
-    imgPath: "/images/logo3.png",
+   // imgPath: "/images/logo3.png",
   },
 ];
 
@@ -206,7 +213,7 @@ const testimonials = [
   mentions: "@nardoszbelete10@gmail.com",
   review:
     "Joshua was great to work with throughout the development of my custom cake ordering website. He listened carefully to my ideas, communicated clearly, and delivered a clean and easy-to-use platform that made it simple for customers to place orders. His professionalism and dedication exceeded my expectations.",
-  imgPath: "/images/client1.png",
+  imgPath: "",
 },
 {
   name: "Tina Quinn",

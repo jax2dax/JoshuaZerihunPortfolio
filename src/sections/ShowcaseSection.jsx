@@ -30,7 +30,7 @@ const projects = [project1Ref.current, project2Ref.current , project3Ref.current
       delay:0.3*(index +1),
       scrollTrigger:{
         trigger:card, 
-        start:'top bottom-=100'
+        start:'top bottom-=100' //top of the card, near bottom of screen
       }
     }
   )
@@ -46,10 +46,10 @@ const projects = [project1Ref.current, project2Ref.current , project3Ref.current
             {/**left */}
             <div ref={project1Ref} className='first-project-wrapper'>
                 <div className='image-wrapper'>
-                    <img src="/images/project1.png" alt="ryde"/>        {/**IMGRPL */}
+                    <img src="public\images\logos\jellyhookmain.jpg" sizes="2" alt="tracker"/>        {/**IMGRPL */}
                 </div>
                 <div className='text-content'>
-                  <h2>Track Coversion Paths, Dxplore Deeper into leads and Close more deals</h2>
+                  <h2>Track Coversion Paths, Explore Deeper into leads and Close more deals</h2>
                      <p className='text-white-50 md:text-xl'>Grow Your Business with <span className='text-green-500 font-bold'>Jellyhook</span> </p>
                 </div>
             </div>
