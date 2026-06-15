@@ -56,15 +56,15 @@ const projects = [project1Ref.current, project2Ref.current , project3Ref.current
             {/**right */}
             <div className='project-list-wrapper overflow-hidden ' >
               <div ref={project2Ref} className='project'>
-                <div className='image-wrapper bg-[#ffefdb]'>
-                  <img src="/images/project2.png" alt="SQL" /> 
+                <div className='image-wrapper bg-[#000000]'>
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcpWzqed6_ridxnEbmnm5kTqJMazSxo8UrVQ&s" alt="SQL" /> 
                 </div>
                 <h2><span className='text-yellow-400 font-bold '>Coin</span>
                 <span className='font-["nabla"]'>Falcon</span></h2>
               </div>
               <div ref={project3Ref} className='project'>
-                <div className='image-wrapper bg-[#ffe7eb]'>
-                  <img src="/images/project3.png" alt="SQL" /> 
+                <div className='image-wrapper bg-[#000000]'>
+                  <img src="" alt="SQL" /> 
                 </div>
                 <h2><span className='text-cyan-400 font-bold '>Stamina</span>
                 <span className='font-["merinda"]'>Labs</span></h2>
