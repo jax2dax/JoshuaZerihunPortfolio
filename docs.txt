@@ -1,0 +1,36 @@
+ npm i react-responsive  (--detect user media type in js)
+npm i gsap @gsap/react //import GSAP
+npm i react-countup^C        //count up
+ import { useMediaQuery } from 'react-responsive'
+
+ const isTablet = useMediaQuery({query: '(max-width:768px)'}) ;
+
+
+##GLB->JSX
+//////////////////
+//turning glb models to jsx
+ cd ./public/models            //go ot the same folder where the glb file is at
+npx gltfjsx optimized-room.glb    //apply it on a specific file
+npx gltfjsx computer-optimized.glb -T         //with a t flag to make it optimized
+
+
+////////////////
+
+Room.jsx --> (USAGE ON FILE) + ( Material Usage)@@
+const curtainMaterial = new THREE.MeshPhongMaterial({color:'#d90429'});
+const matcapTexture = useTexture('/images/textures/mat1.png'); //texture image  //importing teture form png
+ const bodyMaterial = new THREE.MeshPhongMaterial({map: matcapTexture}); //aplying texture into a var2use
+
+ import {Canvas} from "@react-three/fiber"
+import { OrbitControls } from '@react-three/drei'
+
+
+gsap usage:
+import {gsap}  from "gsap";    //for scroll
+import { ScrollTrigger} from 'gsap/ScrollTrigger'
+//////////////PACK//////////////
+import {gsap}  from "gsap"; 
+import { ScrollTrigger} from 'gsap/ScrollTrigger'
+import { useGSAP } from "@gsap/react";
+gsap.registerPlugin(ScrollTrigger);
+/////////////////////////////
