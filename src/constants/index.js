@@ -29,9 +29,11 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 2, suffix: "+", label: "Years of Experience" },
-  { value: 10, suffix: "+", label: "Satisfied Clients" },
-  { value: 10, suffix: "+", label: "Completed Projects" },
+  { value: 30, suffix: "%", label: "Faster Document Review" },
+  { value: 20, suffix: "%", label: "Better Protocol Accuracy" },
+  { value: 50, suffix: "+", label: "Documents Searchable by AI" },
+  { value: 1, suffix: "st", label: "Place, TSA Webmasters Nevada 2026" },
+
  // { value: 90, suffix: "%", label: "Client Retention Rate" },  ////////////////
 ];
 
@@ -151,44 +153,38 @@ const techStackIcons = [
 const expCards = [
   {
     review:
-      "Joshua consistently delivered high-quality web applications with a strong focus on user experience, performance, and scalable architecture. His ability to turn ideas into production-ready products has been impressive.",
-    //imgPath: "/images/exp1.png",
+      "Founder and lead engineer of a live lead-intelligence platform, launched to production and onboarding its first users.",
+    logoPath: "/mainLogo.png",
+    title: "Founder & Lead Engineer (Full-Stack) - Jellyhook",
+    date: "Feb 2026 - Present",
+    responsibilities: [
+      "Built a typed query engine that lets non-technical users query visitor behavior, using Postgres EXPLAIN estimates to reorder conditions, stage execution, and reject over-budget queries before they run.",
+      "Built a first-party JavaScript tracker and API-key-authenticated ingestion API (sessions, scroll depth, UTM attribution, per-field form timing) with bot filtering and idempotent, deduplicated event handling.",
+      "Linked form submissions to visitor sessions to show the exact path to each lead, with a session-replay timeline of page visits and form friction.",
+      "Implemented multi-tenant site access (roles, per-site API keys, signed webhooks) and billing sync, including EU consent handling.",
+      "Developed spec-first: wrote specs and migrations, implemented with AI coding tools, and verified with typed interfaces, tests, and review.",
+    ],
+  },
+  {
+    review:
+      "An AI platform for clinic staff that answers questions in plain language, with every answer cited to its source document and page.",
     logoPath: "https://cdn-icons-png.flaticon.com/512/5072/5072860.png",
-    
-    title: "Freelance Full Stack Developer",
-    date: "January 2024 - Present",
+    title: "Caregiver - Tesh Group Home (Portland, OR)",
+    date: "Aug 2026 - Present",
     responsibilities: [
-      "Designed and developed custom websites and SaaS applications for clients and personal ventures.",
-      "Built full-stack solutions using Next.js, TypeScript, Supabase, PostgreSQL, and Clerk.",
-      "Implemented authentication systems, dashboards, analytics, payments, and API integrations.",
+      "Designed and built an AI platform that lets staff query clinic protocols and documentation in plain language, with every answer cited back to the source document and page; cut document review time by 30% and improved protocol and documentation accuracy by 20% across 50+ documents.",
+      "Built a retrieval-augmented generation pipeline (PDF parsing with table reconstruction, chunking, embeddings, pgvector similarity search) and a multi-step LLM flow that analyses each question, plans targeted searches, and answers only from approved documents.",
     ],
   },
-
   {
     review:
-      "Joshua demonstrated strong technical and communication skills while creating a professional online presence tailored to a healthcare client's needs.",
-    //imgPath: "/images/exp2.png",
-    logoPath: "https://www.red-gate.com/assets/products/test-data-manager/images/article-cloning.svg",
-    title: "Web Developer (Healthcare Client Project)",
-    date: "2025",
+      "A natural-language 3D scene editor where malformed AI output can never corrupt the scene.",
+    logoPath: "/images/logos/3DMesh.png",
+    title: "AI-Powered 3D Scene Editor (Project)",
+    date: "Jun 2026 - Aug 2026",
     responsibilities: [
-      "Designed and developed a professional portfolio website for a medical professional.",
-      "Created responsive user interfaces with modern animations and optimized performance.",
-      "Worked directly with the client to gather requirements and implement revisions.",
-    ],
-  },
-
-  {
-    review:
-      "Joshua has built multiple production-level SaaS and AI applications that showcase advanced frontend and backend engineering skills.",
-    //imgPath: "/images/exp3.png",
-    logoPath: "https://p7.hiclipart.com/preview/501/438/467/web-development-web-developer-web-design-web-development.jpg",
-    title: "Independent Software Developer",
-    date: "2023 - Present",
-    responsibilities: [
-      "Built AI-powered learning platforms featuring voice assistants and personalized tutoring systems.",
-      "Developed analytics dashboards, event tracking systems, and lead intelligence tools.",
-      "Managed deployment, databases, authentication, API integrations, and application architecture.",
+      "Built a natural-language scene editor using a Gemini-powered pipeline and a custom DSL/parser that converts prompts into validated add, edit, and delete operations.",
+      "Added server-side validation and deterministic execution so malformed AI output cannot mutate scene state.",
     ],
   },
 ];

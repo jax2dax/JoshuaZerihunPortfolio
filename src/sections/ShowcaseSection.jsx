@@ -44,31 +44,31 @@ const projects = [project1Ref.current, project2Ref.current , project3Ref.current
       <div className='w-full '>
         <div className='showcaselayout'>
             {/**left */}
-            <div ref={project1Ref} className='first-project-wrapper'>
+            <a ref={project1Ref} href="https://jellyhook.com" target="_blank" rel="noopener noreferrer" className='first-project-wrapper block'>
                 <div className='image-wrapper'>
-                    <img src="public\images\logos\jellyhookmain.jpg" sizes="2" alt="tracker"/>        {/**IMGRPL */}
+                    <img src="/images/logos/jellyhookDashboard.png" alt="Jellyhook" />        {/**IMGRPL */}
                 </div>
                 <div className='text-content'>
-                  <h2>Track Coversion Paths, Explore Deeper into leads and Close more deals</h2>
+                  <h2>Track Conversion Paths, Explore Deeper into Leads and Close More Deals</h2>
                      <p className='text-white-50 md:text-xl'>Grow Your Business with <span className='text-green-500 font-bold'>Jellyhook</span> </p>
                 </div>
-            </div>
+            </a>
             {/**right */}
             <div className='project-list-wrapper overflow-hidden ' >
-              <div ref={project2Ref} className='project'>
+              <a ref={project2Ref} href="https://3dmeshengine-five.vercel.app" target="_blank" rel="noopener noreferrer" className='project'>
                 <div className='image-wrapper bg-[#000000]'>
-                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcpWzqed6_ridxnEbmnm5kTqJMazSxo8UrVQ&s" alt="SQL" /> 
+                  <img src="/images/logos/3DMesh.png" alt="AI 3D Scene Editor" />
                 </div>
-                <h2><span className='text-yellow-400 font-bold '>Coin</span>
-                <span className='font-["nabla"]'>Falcon</span></h2>
-              </div>
-              <div ref={project3Ref} className='project'>
+                <h2 className="flex justify-center items-center" ><span className='text-yellow-400 font-bold '>AI 3D&nbsp;</span>
+                <span className='font-[""]'>Scene Editor</span></h2>
+              </a>
+              <a ref={project3Ref} href="https://doc-vision-1.vercel.app" target="_blank" rel="noopener noreferrer" className='project'>
                 <div className='image-wrapper bg-[#000000]'>
-                  <img src="" alt="SQL" /> 
+                  <img src="/docvision.png" alt="Clinic AI Platform" />
                 </div>
-                <h2><span className='text-cyan-400 font-bold '>Stamina</span>
-                <span className='font-["merinda"]'>Labs</span></h2>
-              </div>
+                <h2 className="flex justify-center items-center"><span className='text-cyan-400 font-bold '>Clinic AI&nbsp;</span>
+                <span className='font-["merinda"]'>Platform</span></h2>
+              </a>
             </div>
         </div>
       </div>

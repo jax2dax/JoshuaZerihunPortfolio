@@ -50,7 +50,7 @@ const Hero = () => {
                         <h1>that Deliver Results</h1>
                     </div>
                     <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-                        I am Joshua, a Developer based in Las Vegas with a passion for code.
+                        I am Joshua, a full-stack engineer based in Portland, Oregon and founder of Jellyhook.
                     </p>
                     <Button text="See My Work" id="counter" className="md:w-80 md:h-16 w-60 h-12"/>
                 </div>
